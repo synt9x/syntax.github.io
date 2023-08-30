@@ -1,0 +1,221 @@
+* {
+    margin: 15px 15px 0px 15px;
+}
+.delmarg{
+    margin: 0 15px 0 15px;
+}
+@font-face {
+    font-family: "Gothic Bold";
+    src: url(../fonts/Gothic\ Bold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+.conteiner-group {
+    margin: 25px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    min-height: 75vh;
+    margin: 20px;
+}
+.conteiner-hero {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+    margin-bottom: 15px;
+}
+.hero-about {
+    align-self: center;
+    width: 400px;
+    height: 185px;
+    font-family: "Gothic Bold";
+    margin-bottom: 0px;
+}
+#text1 {
+    text-align: justify;
+}
+#text2 {
+    text-align: end;
+}
+#text3 {
+    font-weight: normal;
+    font-size: large;
+    text-align: justify;
+    font-size: 20px;
+}
+.data {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    height: 25px;
+    width: 400px;
+    margin-bottom: 15px;
+    margin-top: 0;
+
+}
+.loc {
+    display: flex;
+    justify-content: flex-start;
+    width: 125px;
+    height: 30px;
+    margin: 0;
+}
+.location {
+    height: 25px;
+    width: 25px;
+    margin: 5px 0 0 0 ;
+}
+.nomarg {
+    margin: 0;
+}
+.text4 {
+    color: black;
+    font-size: 17px;
+    margin: 10px 0 0 0;
+    border-bottom: 0 solid #4520ab;
+}
+.text4:hover{
+    color: #4520ab;
+    transition: 0s;
+    border-bottom-width: 2px;
+}
+#text5 {
+    margin: 10px 4px 0 4px;
+    font-size: 17px;
+}
+.tel {
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    height: 30px;
+    margin: 0;
+}
+a {
+    margin: 0;
+    text-decoration: none;
+}
+.noblock {
+    display: flex;
+    justify-content: flex-start;
+}
+.telegram {
+    height: 25px;
+    font-size: 19px;
+    margin: 8px 0 0 0 ;
+}
+#text6 {
+    color: black;
+    font-size: 17px;
+    margin: 10px 0 0 0;
+    border-bottom: 0 solid #4520ab;
+}
+#text6:hover{
+    color: #4520ab;
+    transition: 0s;
+    border-bottom-width: 2px;
+}
+#text7 {
+    margin: 10px 4px 0 4px;
+    font-size: 17px;
+}
+.gmail {
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    height: 30px;
+    margin: 0;
+}
+.icon-email {
+    margin: 8px 0 0 0 ;
+    content: "\e917";
+    font-size: 19px;
+    color: black;
+    border-bottom: 0 solid #4520ab;
+}
+.text8 {
+    font-size: 17px;
+    margin: 10px 0 0 0 ;
+    color: black;
+    border-bottom: 0 solid #4520ab;
+}
+.gmail:hover a .icon-email {
+    margin: 8px 0 0 0 ;
+    color: #4520ab;
+    transition: 0s;
+    border-bottom-width: 2px;
+}
+.gmail:hover a .text8 {
+    color: #4520ab;
+    transition: 0s;
+    border-bottom-width: 2px;
+}
+.leveltwo {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 400px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.icon-github {
+    content: "\e91e";
+    font-size: 24px;
+    color: black;
+    margin: 0 0 0 0 ;
+}
+.icon-github:hover {
+    color: #4520ab;
+    transition: 0s;
+}
+.hero-box {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 410px;
+    background-image: linear-gradient(45deg,#f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: 20px;
+    margin: 15px;
+    animation: animationphot 3s ease infinite;
+    background-size: 300%;
+}
+@keyframes animationphot {
+    0% {
+        background-position: 0;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+.photo {
+    width: 300px;
+    height: 380px;
+    border-radius: 35px;
+    margin: 15px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#fone {
+    font-family: "Gothic Bold";
+    padding: 50px 0px 0px 0px;
+}
