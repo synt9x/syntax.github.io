@@ -4,6 +4,11 @@
 .delmarg{
     margin: 0 15px 0 15px;
 }
+svg {
+    margin: 0;
+    width: 25px;
+    height: 20px;
+}
 @font-face {
     font-family: "Gothic Bold";
     src: url(../fonts/Gothic\ Bold.ttf);
@@ -136,10 +141,8 @@ a {
     height: 30px;
     margin: 0;
 }
-.icon-email {
+.email {
     margin: 8px 0 0 0 ;
-    content: "\e917";
-    font-size: 19px;
     color: black;
     border-bottom: 0 solid #4520ab;
 }
@@ -149,13 +152,7 @@ a {
     color: black;
     border-bottom: 0 solid #4520ab;
 }
-.gmail:hover a .icon-email {
-    margin: 8px 0 0 0 ;
-    color: #4520ab;
-    transition: 0s;
-    border-bottom-width: 2px;
-}
-.gmail:hover a .text8 {
+.text8:hover {
     color: #4520ab;
     transition: 0s;
     border-bottom-width: 2px;
@@ -171,13 +168,12 @@ a {
     margin-top: 0;
 }
 
-.icon-github {
-    content: "\e91e";
-    font-size: 24px;
+.icon-tabler-brand-github {
+    width: 47px;
     color: black;
     margin: 0 0 0 0 ;
 }
-.icon-github:hover {
+.icon-tabler-brand-github:hover {
     color: #4520ab;
     transition: 0s;
 }
